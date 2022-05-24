@@ -32,15 +32,15 @@
         <div>
 
             <th:block th:switch="${manipedi}">
-                <span th:case="manicure">
+                <span th:case="Manicure">
                     <h3>Manicure</h3>
                     <p th:replace="fragments::manicureDescription"></p>
                 </span>
-                <span th:case="pedicure">
+                <span th:case="Pedicure">
                     <h3>Pedicure</h3>
                     <p th:replace="fragments::pedicureDescription"></p>
                 </span>
-                <span th:case="both">
+                <span th:case="Both">
                     <h3>Manicure & Pedicure</h3>
                     <p th:replace="fragments::manicureDescription"></p>
                     <p th:replace="fragments::pedicureDescription"></p>
